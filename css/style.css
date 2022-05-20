@@ -143,20 +143,44 @@ img {
     .container{
         width: 768px;
     }
-     
-    .section{
-        width: 100vw;
-    }
-    
+ 
  }
 
 
  @media screen and (max-width: 480px) {
-    .row{
-        flex-wrap: wrap;
-    }
     
+    .container{
+        width: 460px;
+    }
+
+    .row{
+        flex-direction: column; 
+    }
+
     .lessons .col {
         width: 100%;
+        
     }
+
+    .steps .col {
+        width: 100%;
+
+    }
+
+    .why-us .col-left {
+        width: 100%;
+    }
+    
+    .why-us .col-right {
+        width: 100%;
+    }
+
+    .card{
+        margin-bottom: 65px;
+    }
+
+    .col-left img{
+        margin-bottom: 50px;
+    }
+
  }
