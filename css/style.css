@@ -141,18 +141,13 @@ img {
 
  @media screen and (max-width: 768px) {
     .container{
-        width: 768px;
+        width: 100%;
     }
- 
  }
 
 
  @media screen and (max-width: 480px) {
     
-    .container{
-        width: 460px;
-    }
-
     .row{
         flex-direction: column; 
     }
@@ -181,6 +176,10 @@ img {
 
     .col-left img{
         margin-bottom: 50px;
+    }
+
+    h1{
+        text-align: center;
     }
 
  }
